@@ -40,8 +40,8 @@
 <?php
 						$mail = $_POST['email'];
 						$to = "info@yourdomain.com";/* YOUR EMAIL HERE */
-						$subject = "Rider Submit on FooYes";
-						$headers = "From: Rider Submit on FooYes <noreply@yourdomain.com>";
+						$subject = "Rider Submit on PayCanCook";
+						$headers = "From: Rider Submit on PayCanCook <noreply@yourdomain.com>";
 						$message = "DETAILS\n";
 						$message .= "\nLocation: " . $_POST['location'];
 						$message .= "\nVehicle: " . $_POST['vehicle'];
@@ -65,7 +65,7 @@
 						//Confirmation page
 						$user = "$mail";
 						$usersubject = "Thank You";
-						$userheaders = "From: info@fooyes.com\n";
+						$userheaders = "From: info@PayCanCook.com\n";
 						/*$usermessage = "Thank you for your time. Your quotation request is successfully submitted.\n"; WITH OUT SUMMARY*/
 						//Confirmation page WITH  SUMMARY
 						$usermessage = "Thank you for your time. Your request is successfully submitted. We will reply shortly.\n\nBELOW A SUMMARY\n\n$message"; 
