@@ -2359,6 +2359,7 @@ ul#top_menu li a.login:before {
   position: relative;
   margin: 0;
   color: #fff;
+  
 }
 .hero_single .opacity-mask {
   display: flex;
@@ -2427,14 +2428,15 @@ ul#top_menu li a.login:before {
 }
 .hero_single.version_1 {
   height: 620px;
-  background: #faf3cc url(../img/img9.jpg) center top no-repeat ;
+  background: #faf3cc url(../img/main31.png) center center no-repeat ;
   background-size: cover;
+  
   
  
 }
 @media (max-width: 991px) {
   .hero_single.version_1 {
-    background: #faf3cc url(../img/img9.jpg) center top no-repeat;
+    background: #faf3cc url(../img/main3.png) center top no-repeat;
   }
 }
 @media (max-width: 991px) {
