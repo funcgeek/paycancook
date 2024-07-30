@@ -2434,6 +2434,11 @@ ul#top_menu li a.login:before {
   
  
 }
+@media (min-width: 1000px) {
+  .neew {
+    display: none;
+  }
+}
 @media (max-width: 991px) {
   .hero_single.version_1 {
     background: #faf3cc url(../img/framehero.png) center top no-repeat;
