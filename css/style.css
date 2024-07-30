@@ -4306,8 +4306,8 @@ a.btn_1.plus_icon.medium,
 a.btn_1.gradient,
 .btn_1.gradient {
   background-size: 100%;
-  background-image: -webkit-linear-gradient(right, #f3723b, #e54750);
-  background-image: linear-gradient(to right, #f3723b, #e54750);
+  background-image: -webkit-linear-gradient(right, #1EA24C, #1EA24C);
+  background-image: linear-gradient(to right, #1EA24C, #1EA24C);
   position: relative;
   z-index: 1;
   -webkit-appearance: none;
@@ -4317,7 +4317,7 @@ a.btn_1.gradient,
 a.btn_1.gradient:before,
 .btn_1.gradient:before {
   border-radius: inherit;
-  background-image: -webkit-linear-gradient(right, #e54750, #e54750);
+  background-image: -webkit-linear-gradient(right, button, #e54750);
   background-image: linear-gradient(to right, #e54750, #e54750);
   content: '';
   display: block;
