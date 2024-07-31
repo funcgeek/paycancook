@@ -1,3 +1,4 @@
+
 .box_how {
   background-color: #fff;
   -webkit-border-radius: 5px;
@@ -93,8 +94,7 @@
 }
 .owl-theme.categories_carousel .item a figure img,
 .item_version_2 a figure img {
-  width: 100%;
-  height: auto;
+  
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
